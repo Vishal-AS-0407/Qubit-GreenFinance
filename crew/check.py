@@ -31,10 +31,11 @@ rawmaterial_inference = Agent(
     role="Raw Material Analysis Agent",
     goal=(
         "Analyze the project proposal to extract raw materials mentioned."
-        " If raw materials are not specified, infer the likely raw materials needed."
-        " Use web tools like Serper to analyze the sources and methods for obtaining raw materials."
-        " Provide scores for each of the 17 sustainability goals across ecological, economical, and social dimensions."
-        " Create a detailed report"
+        "If raw materials are not specified, infer the likely raw materials needed for the business."
+        "analyze the project proposal to extract the raw material suppliers."
+        "if raw material supplier not mentioned in proposal,find the raw material supplier which is best (just get the name of the company). do this for all the raw materials. make sure that you always give a company name"
+        " Use web tools like Serper to analyze the sources and methods for obtaining raw materials by each company and check how eco-friendly they are. If no information about the company is avialable then use general extraction process and check how eco-friendly it is"
+        "Provide scores for each of the following sustainability goals affordable and clean energy,decent work and economic growth, industry, innovation, and infrastructure, responsible consumption and production, climate action, no poverty, zero hunger, good health and well-being, quality education, gender equality, clean water and sanitation, reduced inequalities, sustainable cities and communities,  peace, justice, and strong institutions, partnerships for the goals across ecological, economical, and social dimensions using the way raw material is extracted"
         "This is the project proposal content {project_report}"
     ),
     verbose=True,
@@ -54,9 +55,9 @@ rawmaterial_task = Task(
         " Score the sustainability of the methods used for raw material collection ."
     ),
     expected_output=(
-        "A 3x17 matrix of scores where the three is ecological, economical, and social dimensions and for each thing we have 17 sustainable development so the score must be 1 for good 0.5 for partially good 0 for neutral -0.5 for partially bad -1 for bad "
-        " (aligned with the 17 Sustainable Development Goals)."
-        " A detailed report with insights about the raw materials, collection methods, and this information will be passed into another llm so it should be able to understand the context and information so keep that in minds"
+        "A 3x15 matrix of scores where the three is ecological, economical, and social dimensions and for each thing we have 15 sustainable development so the score must be 1 for good 0.5 for partially good 0 for neutral -0.5 for partially bad -1 for bad "
+        " (aligned with the 17 Sustainable Development Goals). This score should be based on how eco-friendly the company that extract the materials is and the way the material is extracted give the reason for the score as notes based on the company that is extracting raw materials. the reason should saw how the company extracting the raw material affects this score"
+        "give it to me in json format with keys as sgd goal name given and value as another dictionary with keys as Ecological, Economic, social, notes with corresponding output as value. finally make 1 single json format with first key as resources with value as another dictionary with raw material name as key and company providing it as value and create another key as matrix and value as this dictionary you created for the 3X15 matrix"
     ),
     tools=[serper_tool],
     agent=rawmaterial_inference,
@@ -112,6 +113,6 @@ def main(pdf_file_path):
 
 #FINAL CALLER
 if __name__ == "__main__":
-    pdf_file_path = "C:\\Users\\visha\\OneDrive\\Desktop\\data\\PROPOSAL.pdf"  # Replace with actual PDF file path
+    pdf_file_path = "..\\PROPOSAL.pdf"  # Replace with actual PDF file path
     main(pdf_file_path)
         
