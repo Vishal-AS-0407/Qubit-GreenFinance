@@ -30,6 +30,11 @@ serper_tool = SerperDevTool()
 rawmaterial_inference = Agent(
     role="Raw Material Analysis Agent",
     goal=(
+        "Identify the current market share of this industry and it's future prospects . Get the location of the company. Get possible legal problems this industry might face"
+        "give the projected growth of the industry. the output i want is either negative growth, no growth, low growth, hight growth or very high growth"
+        "give if the location is prone to natural disaster the output should be not prone, very rarely, rarely, frequently, very frequently"
+        "give if the business is prone to legal trouble answer should be not likely, very slight chances, slight chance, high chances, very high chances"
+        "make this into json format with growth as key and corresponding output as value and respectively with other outputs as well"
         "Analyze the project proposal to extract raw materials mentioned."
         "If raw materials are not specified, infer the likely raw materials needed for the business."
         "analyze the project proposal to extract the raw material suppliers."
@@ -55,15 +60,20 @@ rawmaterial_task = Task(
         " Score the sustainability of the methods used for raw material collection ."
     ),
     expected_output=(
+        "give the projected growth of the industry. the output i want is either negative growth, no growth, low growth, hight growth or very high growth"
+        "give if the location is prone to natural disaster the output should be not prone, very rarely, rarely, frequently, very frequently"
+        "give if the business is prone to legal trouble answer should be not likely, very slight chances, slight chance, high chances, very high chances"
+        "make this into json format with growth as key and corresponding output as value and respectively with other outputs as well"
         "A 3x15 matrix of scores where the three is ecological, economical, and social dimensions and for each thing we have 15 sustainable development so the score must be 1 for good 0.5 for partially good 0 for neutral -0.5 for partially bad -1 for bad "
         " (aligned with the 17 Sustainable Development Goals). This score should be based on how eco-friendly the company that extract the materials is and the way the material is extracted give the reason for the score as notes based on the company that is extracting raw materials. the reason should saw how the company extracting the raw material affects this score"
-        "give it to me in json format with keys as sgd goal name given and value as another dictionary with keys as Ecological, Economic, social, notes with corresponding output as value. finally make 1 single json format with first key as resources with value as another dictionary with raw material name as key and company providing it as value and create another key as matrix and value as this dictionary you created for the 3X15 matrix"
+        "give it to me in json format with keys as sgd goal name given and value as another dictionary with keys as Ecological, Economic, social, notes with corresponding output as value. finally make 1 single json format with first key as risk and give the dictinory with growth value second keh as resources with value as another dictionary with raw material name as key and company providing it as value and create another key as matrix and value as this dictionary you created for the 3X15 matrix"
     ),
     tools=[serper_tool],
     agent=rawmaterial_inference,
 )
 
-#CREW
+
+
 crew = Crew(
     agents=[rawmaterial_inference],
     tasks=[rawmaterial_task],
