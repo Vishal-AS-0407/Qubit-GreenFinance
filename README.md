@@ -1,6 +1,8 @@
 # 🌱 Green Finance Optimization Platform (Prototype)
 
-![Screenshot 2025-01-03 100732](https://github.com/user-attachments/assets/a881278b-62a8-4710-bf6f-e1bd51ad7f95)
+![Copy_of_Enjoy_World_Day_for_the_Reduction_of_CO2_Emissions_by_Slidesgo pptx(2) 1](https://github.com/user-attachments/assets/01439845-7c6b-4e95-b56b-aa926fe88ba0)
+
+
 
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
@@ -39,6 +41,9 @@ We've implemented a sophisticated multi-agent system that leverages the power of
 *Agent specialized in analyzing sustainability of raw materials and supply chains*
 
 #### Project Assessment Agent
+
+![image](https://github.com/user-attachments/assets/1c422e0d-76fb-468b-9688-f6115d48f5b2)
+![image](https://github.com/user-attachments/assets/9977601a-fc01-4037-a2eb-4b5b8ea4719b)
 
 *Agent focused on evaluating project viability and ESG impact*
 
