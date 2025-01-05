@@ -17,7 +17,7 @@
 [![Pinecone](https://img.shields.io/badge/Pinecone-000000.svg?logo=pinecone&logoColor=white)](https://www.pinecone.io)
 [![Tavily](https://img.shields.io/badge/Tavily-5B21B6.svg?logo=data:image/png;base64,&logoColor=white)](https://tavily.com)
 
-> **Note**: This is an initial prototype version developed for the first round of implementation. Features and capabilities will be expanded in future versions.
+> **Note**: This is an initial prototype version of a part of the code  developed for the first round of implementation 
 
 ## 🎯 Problem Statement
 
@@ -33,9 +33,8 @@ We've implemented a sophisticated multi-agent system that leverages the power of
 - **Automated Report Generation** for comprehensive project insights
 
 ### Task-Specific Agents
-
-![Screenshot 2025-01-03 100732](https://github.com/user-attachments/assets/f459bf31-5420-4948-92a5-621e6ef75eb9)
 #### Raw Materials Analysis Agent
+![Screenshot 2025-01-05 164138](https://github.com/user-attachments/assets/d6fb5a49-3166-4110-a7d3-67cc09f074ad)
 
 *Agent specialized in analyzing sustainability of raw materials and supply chains*
 
@@ -101,15 +100,7 @@ pip install -r requirements.txt
 streamlit run final.py
 ```
 
-## 👥 Team Achivements
-
-Our team is proud to have achieved the following milestones:
-
-
-- **Winners of Hack Harvard 2024** 🎉  
-- **Winners of IIT Bombay DigiPay Pro Challenge** 🏅  
-- **Winners of Intel OneAPI Hackathon** 🥇  
-- **Winners of EALTH Hack** 🚀  
+  
 
 We bring together experience, innovation, and a proven track record of success in solving real-world challenges!
 
