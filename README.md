@@ -18,7 +18,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org)
 [![Pinecone](https://img.shields.io/badge/Pinecone-000000.svg?logo=pinecone&logoColor=white)](https://www.pinecone.io)
 [![Tavily](https://img.shields.io/badge/Tavily-5B21B6.svg?logo=data:image/png;base64,&logoColor=white)](https://tavily.com)
-
+a
 > **Note**: This is an initial prototype version of a part of the code  developed for the first round of implementation 
 
 ## 🎯 Problem Statement
@@ -31,7 +31,7 @@ We've implemented a sophisticated multi-agent system that leverages the power of
 
 - **Specialized AI Agents** for different aspects of analysis
 - **Advanced LLM Integration** for processing complex financial documents
-- **Multi-language Support** through Sarvam API
+- **Used our own constrain optimization algo** for getting the optimized resource allocation 
 - **Automated Report Generation** for comprehensive project insights
 
 ### Task-Specific Agents
@@ -66,14 +66,8 @@ Our prototype leverages a comprehensive set of modern technologies:
 - **CrewAI**: Agent orchestration
 - **TensorFlow & PyTorch**: Machine learning models
 
-### Data Management
-- **Neo4j**: Graph database for relationship mapping
-- **Firebase**: Real-time database and authentication
-- **Pinecone**: Vector database for embeddings
 
-### Integration & Tools
-- **Sarvam.ai**: Multilingual processing
-- **Tavily**: Data retrieval and processing
+
 
 ## 📂 Project Structure
 
@@ -86,7 +80,7 @@ green-finance-platform/
 │   │   └── risk_assessor.py
 │   └── workflows/
 │       └── analysis_workflow.py
-├── final.py
+├── optimization.py
 ├── requirements.txt
 └── README.md
 ```
