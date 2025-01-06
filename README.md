@@ -106,7 +106,7 @@ pip install -r requirements.txt
 ## 🏃‍♂️ Running the Project
 
 ```bash
-streamlit run final.py
+streamlit run app.py
 ```
 
   
