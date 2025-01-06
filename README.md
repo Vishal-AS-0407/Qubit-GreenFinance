@@ -57,7 +57,8 @@ We've implemented a sophisticated multi-agent system that leverages the power of
 
 ### System Architecture
 
-![image](https://github.com/user-attachments/assets/af866651-2ce4-4cda-9033-43d79d955681)
+![image](https://github.com/user-attachments/assets/9eee03b3-4b78-4513-9cb0-77b72a53602c)
+
 
 
 ## 🛠️ Technology Stack
