@@ -18,7 +18,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org)
 [![Pinecone](https://img.shields.io/badge/Pinecone-000000.svg?logo=pinecone&logoColor=white)](https://www.pinecone.io)
 [![Tavily](https://img.shields.io/badge/Tavily-5B21B6.svg?logo=data:image/png;base64,&logoColor=white)](https://tavily.com)
-a
+
 > **Note**: This is an initial prototype version of a part of the code  developed for the first round of implementation 
 
 ## 🎯 Problem Statement
@@ -45,11 +45,19 @@ We've implemented a sophisticated multi-agent system that leverages the power of
 ![image](https://github.com/user-attachments/assets/1c422e0d-76fb-468b-9688-f6115d48f5b2)
 ![image](https://github.com/user-attachments/assets/9977601a-fc01-4037-a2eb-4b5b8ea4719b)
 
+### Outputs
+
+![Untitled](https://github.com/user-attachments/assets/e025a6ef-6ff3-470d-96ff-22251374042a)
+![Untitled](https://github.com/user-attachments/assets/b1adb13e-d075-4e3d-933d-7ed26111d943)
+![Untitled](https://github.com/user-attachments/assets/8c8e8974-53d1-4c34-b488-2318cf3ceea5)
+
+
 *Agent focused on evaluating project viability and ESG impact*
 
 ### System Architecture
 
-![image](https://github.com/user-attachments/assets/e776c302-a819-4e8c-87c6-0454d6471e14)
+![image](https://github.com/user-attachments/assets/af866651-2ce4-4cda-9033-43d79d955681)
+
 
 ## 🛠️ Technology Stack
 
