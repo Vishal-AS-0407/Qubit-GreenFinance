@@ -50,6 +50,7 @@ We've implemented a sophisticated multi-agent system that leverages the power of
 ![Untitled](https://github.com/user-attachments/assets/e025a6ef-6ff3-470d-96ff-22251374042a)
 ![Untitled](https://github.com/user-attachments/assets/b1adb13e-d075-4e3d-933d-7ed26111d943)
 ![Untitled](https://github.com/user-attachments/assets/8c8e8974-53d1-4c34-b488-2318cf3ceea5)
+![Untitled](https://github.com/user-attachments/assets/ad38e1ae-61d3-4315-bc0f-011e553c1ccb)
 
 
 *Agent focused on evaluating project viability and ESG impact*
