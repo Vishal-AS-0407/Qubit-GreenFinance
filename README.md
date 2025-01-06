@@ -34,12 +34,6 @@ We've implemented a sophisticated multi-agent system that leverages the power of
 - **Used our own constrain optimization algo** for getting the optimized resource allocation 
 - **Automated Report Generation** for comprehensive project insights
 
-### Task-Specific Agents
-#### Raw Materials Analysis Agent
-![Screenshot 2025-01-05 164138](https://github.com/user-attachments/assets/d6fb5a49-3166-4110-a7d3-67cc09f074ad)
-
-*Agent specialized in analyzing sustainability of raw materials and supply chains*
-
 ### Outputs
 
 ![Untitled](https://github.com/user-attachments/assets/e025a6ef-6ff3-470d-96ff-22251374042a)
