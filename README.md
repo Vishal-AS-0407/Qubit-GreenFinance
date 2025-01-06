@@ -40,11 +40,6 @@ We've implemented a sophisticated multi-agent system that leverages the power of
 
 *Agent specialized in analyzing sustainability of raw materials and supply chains*
 
-#### Project Assessment Agent
-
-![image](https://github.com/user-attachments/assets/1c422e0d-76fb-468b-9688-f6115d48f5b2)
-![image](https://github.com/user-attachments/assets/9977601a-fc01-4037-a2eb-4b5b8ea4719b)
-
 ### Outputs
 
 ![Untitled](https://github.com/user-attachments/assets/e025a6ef-6ff3-470d-96ff-22251374042a)
@@ -54,6 +49,14 @@ We've implemented a sophisticated multi-agent system that leverages the power of
 
 
 *Agent focused on evaluating project viability and ESG impact*
+
+### Green Finance Optimization Using Linear Algebra
+
+![Screenshot 2025-01-06 073623](https://github.com/user-attachments/assets/43a1fed3-77b7-46f7-b2e3-0b3b736dbd0d)
+
+- **Formulas used**
+  
+![Screenshot 2025-01-06 073032](https://github.com/user-attachments/assets/c62ef9b2-1c03-41a5-8894-e6487391e3a0)
 
 ### System Architecture
 
