@@ -6,7 +6,7 @@ def convert_pdf_to_txt(uploaded_file):
     """
     Converts an uploaded PDF to text using ConvertAPI.
     """
-    api_key = "secret_Bv56oHGdimlmrOIX"
+    api_key = ""
     url = "https://v2.convertapi.com/convert/pdf/to/txt"
 
     # Encode the uploaded file in base64
