@@ -12,13 +12,13 @@ import PyPDF2
 import re
 
 #SETTING UP KEY
-os.environ['SERPER_API_KEY'] = "6f2227a931b482b6e1b21298ecc47bb6865beb28"
+os.environ['SERPER_API_KEY'] = ""
 
 #LLM
 llm = LLM(
     model="gemini/gemini-1.5-flash",
     temperature=0.7,
-    api_key="AIzaSyBNOQJ3D5xVYeKt7xokZlQ-zXZrKwGgspE"
+    api_key=""
 )
 
 #TOOLS
