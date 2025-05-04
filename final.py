@@ -11,7 +11,7 @@ import re
 import PyPDF2  # Added for PDF processing
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyAjhjE1-c6vcFixyO6lOIHQUE8a15peRd0")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 
